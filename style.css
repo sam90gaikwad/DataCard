@@ -1,0 +1,13 @@
+.card{
+    width: 600px;
+    height: 400px;
+    margin: 10%;
+    background-color: aqua;
+    border: 10px solid red;
+    border-radius: 10px ;
+}
+p{
+    margin-left: 10px;
+    
+    font-weight: bold;
+}

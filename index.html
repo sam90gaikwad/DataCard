@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert Card</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>User Information Card</h1>
+        <div class="data">
+            <p id="name"></p>
+            <p id="lname"></p>
+            <p id="country"></p>
+            <p id="phone"></p>
+            <p id="state"></p>
+            <p id="city"></p>
+            <p id="village"></p>
+        </div>
+    </div>
+
+
+     <script>
+        let fname = prompt("First Name");
+        let lName = prompt("Last Name:");
+        let country= prompt("Enter your country");
+        let phone = prompt("Enter your phone Number");
+        let state = prompt("enter your state:");
+        let city = prompt("Enter your City");
+        let village = prompt("Enter your village");
+
+        document.getElementById("name").innerText = `First Name: ${fname}`;
+        document.getElementById("lname").innerText = `First Name: ${lName}`;
+        document.getElementById("country").innerText = `First Name: ${country}`;
+        document.getElementById("phone").innerText = `First Name: ${phone}`;
+        document.getElementById("state").innerText = `First Name: ${state}`;
+        document.getElementById("city").innerText = `First Name: ${city}`;
+        document.getElementById("village").innerText = `First Name: ${village}`;
+        
+
+        
+     </script>
+</body>
+</html>
